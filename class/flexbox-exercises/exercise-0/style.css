@@ -1,3 +1,10 @@
+@media only screen and (min-width:600px) and (max-width: 787px){
+.media-query-text {
+	color: #red;
+	font-weight: bold;
+}
+}
+
 .media-query-example-mobile,
 .media-query-example-desktop {
 	min-height: 300px;
@@ -59,11 +66,47 @@
 }
 
 /* Extra large devices (large laptops and desktops, over 1200px) */
-
+@media only screen and (min-width 1200px) {
+	.media-query-example-desktop {
+		background-color: blue;
+	}
+	.media-query-example-desktop: before {
+		content: "large laptops and desktops";
+	}
+}
 /* Large devices (laptops/desktops, up to 1200px) */
-
+@media only screen and (max-width: 1200px) {
+	.media-query-desktop {
+		background-color: #476ea9;
+	}
+	.media-query-desktop::before {
+		content: "laptops/desktops";
+	}
+}
 /* Medium devices (landscape tablets, 768px and up to 992px) */
-
+@media only screen (min-width: 768px) and (max-width: 992px) {
+	.media-query-mobile {
+		background-color: #yellow;
+	}
+	.media-query-mobile::before {
+		content: "landscape tablet";
+	}
+}
 /* Small devices (portrait tablets and large phones, up to 768px) */
-
+@media only screen and (max-width: 768px) {
+	.media-query-mobile {
+		background-color: #yellow;
+	}
+	.media-query-mobile::before {
+		content: "portrait tablets and large phones";
+	}
+}
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.media-query-mobile {
+		background-color: #red;
+	}
+	.media-query-mobile::before {
+		content: "phones";
+	}
+}
