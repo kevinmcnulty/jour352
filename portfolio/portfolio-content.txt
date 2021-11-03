@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  </head>
-  <body>
-    <p>
-    Kevin McNulty
+Kevin McNulty
 kmcnulty1705@gmail.com | 847-977-0880 | Twitter |YouTube
 Tagline:
 Aspiring sports broadcaster
@@ -43,5 +37,3 @@ Awards
 University of Maryland Journalism President’s Scholarship Recipient
 2020-21 Sigma Delta Chi Foundation Scholarship Recipient
 Semester Academic Honors: Fall 2019, Spring 2020, Fall 2020, Spring 2021
-  </body>
-</html>
