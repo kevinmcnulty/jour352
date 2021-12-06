@@ -1,0 +1,23 @@
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+h1 {
+	font-family: 'Outfit', sans-serif;
+}
+
+figcaption {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	width: 80%;
+}
+
+#video {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
